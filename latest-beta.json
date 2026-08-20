@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-3",
-  "notes": "- Fix: \"Check now\" silently did nothing if a check was already running in the background — now shows a status message instead\n- Fix: the update button in the title bar gave no feedback when clicked and could freeze permanently if the download stalled — it now shows immediate progress, recovers from stalls after 60s, and surfaces real errors instead of failing silently",
-  "pub_date": "2026-08-20T18:52:10Z",
+  "version": "0.1.0-4",
+  "notes": "- Fix: after installing an update and restarting, the app window wasn't reliably brought to the front — show() alone doesn't guarantee focus, especially right after process.relaunch()",
+  "pub_date": "2026-08-20T19:13:04Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjNGMlRrejhFbVY3dTJET04xRzZiS0hSWUVtRXd5bndOUXJ2L2crUjJCKzhkVEhDZEtmS1lHcVVGbUFFTDRJRFZ5bzlaRWlrcFRXdjNsVmRId3c3YXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUxOTIxCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKWGZPd0NqY29GbXRkWEEzMENZUmVaUzNVSGxUS01ad3BRR0VxNjQ4K2NuajJTZCtZMkJVZWdNZTF5VDV4Ym93b2NmVjRJcjdDWmtxc0FXUkc3V0xERHc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-3/kbootar-beta_0.1.0-3_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZrL3JFaFBuY01TcjZIVXlKT1puWG5yNEFhRVhJbEQyeTFiRmo5L1daTk8ybVpzaUVab2owTGdIOFZzSE9SWG9YVVY3Z21mMEpVWjRvR3dYc3ZZbEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUzMTc0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKcTlaR0NUK3YrT2ZhVG1SRzN1SE9ZSHlpdDBOd2dDdVRVbi9GdFpIdzJOd1c1ZHBTU29VTWJMMHpqNG1OeEhBZzljZ3hVYU1KOVpONnpUT1hnbXNJQ2c9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-4/kbootar-beta_0.1.0-4_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjNGMlRrejhFbVY3dTJET04xRzZiS0hSWUVtRXd5bndOUXJ2L2crUjJCKzhkVEhDZEtmS1lHcVVGbUFFTDRJRFZ5bzlaRWlrcFRXdjNsVmRId3c3YXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUxOTIxCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKWGZPd0NqY29GbXRkWEEzMENZUmVaUzNVSGxUS01ad3BRR0VxNjQ4K2NuajJTZCtZMkJVZWdNZTF5VDV4Ym93b2NmVjRJcjdDWmtxc0FXUkc3V0xERHc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-3/kbootar-beta_0.1.0-3_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZrL3JFaFBuY01TcjZIVXlKT1puWG5yNEFhRVhJbEQyeTFiRmo5L1daTk8ybVpzaUVab2owTGdIOFZzSE9SWG9YVVY3Z21mMEpVWjRvR3dYc3ZZbEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUzMTc0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKcTlaR0NUK3YrT2ZhVG1SRzN1SE9ZSHlpdDBOd2dDdVRVbi9GdFpIdzJOd1c1ZHBTU29VTWJMMHpqNG1OeEhBZzljZ3hVYU1KOVpONnpUT1hnbXNJQ2c9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-4/kbootar-beta_0.1.0-4_universal.app.tar.gz"
     }
   }
 }
