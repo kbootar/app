@@ -1,14 +1,14 @@
 {
   "version": "0.1.0-1",
-  "notes": "- Fix: window now opens maximized on first launch (previously opened at a small default size)\n- Add: in-app update checking — the app checks kbootar/app for newer releases and can download, verify, and install them directly\n- Add: feedback submissions now include the release number",
-  "pub_date": "2026-08-20T15:53:39Z",
+  "notes": "- Add: automatic update checks every 2 hours and on window focus, plus a manual \"Check for Updates…\" menu item and a Check now button in Workspace Settings\n- Add: a persistent per-install device ID, included in feedback submissions alongside the release number",
+  "pub_date": "2026-08-20T16:49:46Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjNGVTZPM3Z1cGdtV2JpdFJFMnBhbXA5bm9MU2IwSmI4MW9udzljeGdPTTVKT3h0RVZpRWFhTHl4RWUxTmx6dlhtbWZkd2dobWt1bm1nOTRBSFhpUEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQxMjEwCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKaWdoSnZGK1hnTVhwQ2JXazQzTVlFS1VzL0NNUnI4UmJ6NTFVUEc5dWRhU2M1TW1aakw5V3FPd2liU3RXK2lqZklpdHE3WkFQUU90WUVHV1RLQ2s0Q2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjYwY2ttK01kWjB3OWJVVnBjUmNodmNHZGdaS3lPbDgyUUsyenJGNHJtazF5VjRudlpLZGtnalgwZWRNYktDTXNmbjZYMDhZcTBnNGpCd3FGYmNiNUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQ0NTc2CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKTmxkL0RZYjF5ZnpoOTEwM1R6Q1B1akR2YjBJcmNBZWVSVW1DOWZBVTRINlgyTGV6OGRPMHowektXQ2JKYlQrd2V3WGY0WDBMWjJwdGFkcTNtaU03Q0E9PQo=",
       "url": "https://github.com/kbootar/app/releases/download/v0.1.0-1/kbootar-beta_0.1.0-1_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjNGVTZPM3Z1cGdtV2JpdFJFMnBhbXA5bm9MU2IwSmI4MW9udzljeGdPTTVKT3h0RVZpRWFhTHl4RWUxTmx6dlhtbWZkd2dobWt1bm1nOTRBSFhpUEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQxMjEwCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKaWdoSnZGK1hnTVhwQ2JXazQzTVlFS1VzL0NNUnI4UmJ6NTFVUEc5dWRhU2M1TW1aakw5V3FPd2liU3RXK2lqZklpdHE3WkFQUU90WUVHV1RLQ2s0Q2c9PQo=",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjYwY2ttK01kWjB3OWJVVnBjUmNodmNHZGdaS3lPbDgyUUsyenJGNHJtazF5VjRudlpLZGtnalgwZWRNYktDTXNmbjZYMDhZcTBnNGpCd3FGYmNiNUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQ0NTc2CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKTmxkL0RZYjF5ZnpoOTEwM1R6Q1B1akR2YjBJcmNBZWVSVW1DOWZBVTRINlgyTGV6OGRPMHowektXQ2JKYlQrd2V3WGY0WDBMWjJwdGFkcTNtaU03Q0E9PQo=",
       "url": "https://github.com/kbootar/app/releases/download/v0.1.0-1/kbootar-beta_0.1.0-1_universal.app.tar.gz"
     }
   }
