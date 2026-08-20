@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-1",
-  "notes": "Automated beta build.",
-  "pub_date": "2026-08-20T18:07:30Z",
+  "version": "0.1.0-2",
+  "notes": "- Fix: window showing multiple black-screen flashes and resizes on launch — the window was being made visible and resized in the wrong order before the app had actually finished loading",
+  "pub_date": "2026-08-20T18:35:33Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjJTMWZSY2ZRUllzeGZYa1d5SEJhclRsRm5qbTRSeVRlelJPbThWbFFuWXN0WjJ3c0U5UUQyR2pUTjR1WW9FZEcwM1UwMThQK3BJTFNZNmZqR2tud0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQ5MjM0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKWEQ3UXdTSGNobEtuNC80S1dwQ2M2SFBub29qeXEwaC93RHhzRkFkUlJFOW0ySGxlejRDVEtBZnZtODljLzlwY0pVOEo3NW5sTVV3Qm9RZDF2MFJDREE9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-1/kbootar-beta_0.1.0-1_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbi95RWg1bFJBYVhldkVzRzNZNHFJVm9OUGlmT1djcFdycDhFNjh6elhZNm9Iby9XUFpQL2ZINkNKbk1GNzRFL1BrbG9lTDhmQmw5V0RNMytWT2FzT3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUwOTI0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKaUd1NWIxOWZRaGFtWWVzZk9WMUp4c2hYME5SeUxDWFpXM2tleDdXamkxbExldnRvZWg0Tlo0YjlSOWpGNnhVZ0Q0UUlTSzNDK2R1ZnF6Y1pqTUgwQmc9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-2/kbootar-beta_0.1.0-2_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjJTMWZSY2ZRUllzeGZYa1d5SEJhclRsRm5qbTRSeVRlelJPbThWbFFuWXN0WjJ3c0U5UUQyR2pUTjR1WW9FZEcwM1UwMThQK3BJTFNZNmZqR2tud0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjQ5MjM0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKWEQ3UXdTSGNobEtuNC80S1dwQ2M2SFBub29qeXEwaC93RHhzRkFkUlJFOW0ySGxlejRDVEtBZnZtODljLzlwY0pVOEo3NW5sTVV3Qm9RZDF2MFJDREE9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-1/kbootar-beta_0.1.0-1_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbi95RWg1bFJBYVhldkVzRzNZNHFJVm9OUGlmT1djcFdycDhFNjh6elhZNm9Iby9XUFpQL2ZINkNKbk1GNzRFL1BrbG9lTDhmQmw5V0RNMytWT2FzT3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUwOTI0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKaUd1NWIxOWZRaGFtWWVzZk9WMUp4c2hYME5SeUxDWFpXM2tleDdXamkxbExldnRvZWg0Tlo0YjlSOWpGNnhVZ0Q0UUlTSzNDK2R1ZnF6Y1pqTUgwQmc9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-2/kbootar-beta_0.1.0-2_universal.app.tar.gz"
     }
   }
 }
