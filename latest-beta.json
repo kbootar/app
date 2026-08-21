@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-4",
-  "notes": "- Fix: after installing an update and restarting, the app window wasn't reliably brought to the front — show() alone doesn't guarantee focus, especially right after process.relaunch()",
-  "pub_date": "2026-08-20T19:13:04Z",
+  "version": "0.1.0-5",
+  "notes": "Update button: state-specific icons (download / progress / restart).",
+  "pub_date": "2026-08-21T02:47:21Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZrL3JFaFBuY01TcjZIVXlKT1puWG5yNEFhRVhJbEQyeTFiRmo5L1daTk8ybVpzaUVab2owTGdIOFZzSE9SWG9YVVY3Z21mMEpVWjRvR3dYc3ZZbEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUzMTc0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKcTlaR0NUK3YrT2ZhVG1SRzN1SE9ZSHlpdDBOd2dDdVRVbi9GdFpIdzJOd1c1ZHBTU29VTWJMMHpqNG1OeEhBZzljZ3hVYU1KOVpONnpUT1hnbXNJQ2c9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-4/kbootar-beta_0.1.0-4_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjRiYkdkL0NiME52QTBXWiszcWhtYnFCYUpEM3I0L0hpM1pJODladm14MU9SckVOZ3ZDY293OFlWR29LaXVtT0pzRmduY3dwb0VhY2M3emF2b1JrdVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjgwNDMxCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKdGJ4clVsZHdnSXdWYXZoR3R5bkcwcUR6Y0dxNFVJZmUzZXVVWkc3dm40ZGV2TlZEclJ5SndGRmZCSjhZb3phc2ZtUmhIWUpPMWQ3Y2NWb0svdWE3QUE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-5/kbootar-beta_0.1.0-5_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZrL3JFaFBuY01TcjZIVXlKT1puWG5yNEFhRVhJbEQyeTFiRmo5L1daTk8ybVpzaUVab2owTGdIOFZzSE9SWG9YVVY3Z21mMEpVWjRvR3dYc3ZZbEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjUzMTc0CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKcTlaR0NUK3YrT2ZhVG1SRzN1SE9ZSHlpdDBOd2dDdVRVbi9GdFpIdzJOd1c1ZHBTU29VTWJMMHpqNG1OeEhBZzljZ3hVYU1KOVpONnpUT1hnbXNJQ2c9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-4/kbootar-beta_0.1.0-4_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjRiYkdkL0NiME52QTBXWiszcWhtYnFCYUpEM3I0L0hpM1pJODladm14MU9SckVOZ3ZDY293OFlWR29LaXVtT0pzRmduY3dwb0VhY2M3emF2b1JrdVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MjgwNDMxCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKdGJ4clVsZHdnSXdWYXZoR3R5bkcwcUR6Y0dxNFVJZmUzZXVVWkc3dm40ZGV2TlZEclJ5SndGRmZCSjhZb3phc2ZtUmhIWUpPMWQ3Y2NWb0svdWE3QUE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-5/kbootar-beta_0.1.0-5_universal.app.tar.gz"
     }
   }
 }
