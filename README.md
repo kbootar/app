@@ -40,6 +40,18 @@ This repo holds releases only — no source code lives here.
 **Cookie jar — captured automatically, reused automatically**
 ![Cookie jar](gifs/cookie-jar.gif)
 
+**Request history, grouped by host**
+![Request history](gifs/history.gif)
+
+**Prepare and Evaluate scripts — mutate the request, assert on the response**
+![Prepare and Evaluate scripts](gifs/hooks.gif)
+
+**Export and import collections as `.kbtr`**
+![Export and import .kbtr](gifs/kbtr.gif)
+
+**Response viewer — raw/preview toggle and search**
+![Response viewer](gifs/response-viewer.gif)
+
 ## Download
 
 **macOS** — [Download the latest release](https://github.com/kbootar/app/releases/latest)
