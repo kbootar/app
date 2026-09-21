@@ -1,8 +1,6 @@
 {
   "version": "0.1.0-21",
-  "notes": "Cancel in-flight requests — while a request is pending, the Send button turns red and shows \"Stop\". Click it to abort immediately — works in both direct and Remote Executor mode.
-
-Remote Executor host skipping — specific hosts can now bypass the executor and be called directly. Defaults to localhost, 127.0.0.1; supports *.domain wildcards. Configurable in the executor settings modal.",
+  "notes": "Cancel in-flight requests — while a request is pending, the Send button turns red and shows “Stop”. Click it to abort immediately, works in both direct and Remote Executor mode.\n\nRemote Executor host skipping — specific hosts can now bypass the executor and be called directly. Defaults to localhost, 127.0.0.1; supports *.domain wildcards. Configurable in the executor settings modal.",
   "pub_date": "2026-09-21T03:45:57Z",
   "platforms": {
     "darwin-x86_64": {
