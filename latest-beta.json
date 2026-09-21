@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-21",
-  "notes": "Cancel in-flight requests — while a request is pending, the Send button turns red and shows “Stop”. Click it to abort immediately, works in both direct and Remote Executor mode.\n\nRemote Executor host skipping — specific hosts can now bypass the executor and be called directly. Defaults to localhost, 127.0.0.1; supports *.domain wildcards. Configurable in the executor settings modal.",
-  "pub_date": "2026-09-21T03:45:57Z",
+  "version": "0.1.0-22",
+  "notes": "Delay startup update check by 5 s to avoid a race with Tauri plugin initialization that caused the auto-updater to miss available updates on launch.",
+  "pub_date": "2026-09-21T06:25:17Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjdveStHeW5wNmNRRTJxQllyU3NGVDJuVW1WRzdiL2ROMGEwSWlWWnYxVkp0ZkNuVDY3WTNNMzF1eW9WenpXazF1SWs0V3pEbzczSkhER2NJSXBTZkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTYxODc3CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKbWpwNHRJTEVEQjh3RTR2RjFuc2hnWmhpL09EbmpDekZpYVRyKzEreWpVcTNocUU1V01rZVlpZnU5L3Bwa3A0S2E5YXNDTFladVdnVkh6MmxaYUlQQmc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-21/kbootar-beta_0.1.0-21_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZjV3QrTWVWaEtRN0E1aEM3RmdDUjUvTk5vQVhFN3ZhbnZOZGNGSkxWdVhOV2lZM2M5K0NkNUZUQ2tZMmNacHNYdklQa2lFUU91TDFXaGVoSER5UFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTcxNjA5CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKKzZXeU5OZ1ZGYjJDbVROZkxNeVFaVkN5UTFnYmtLZ016VlpVaXZlMzNwNjNYSnBPejlFUGZTQXFFMGRZUXIrNEl2UUhsQ0hlMExaSUlhR1ZQeDREQUE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-22/kbootar-beta_0.1.0-22_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjdveStHeW5wNmNRRTJxQllyU3NGVDJuVW1WRzdiL2ROMGEwSWlWWnYxVkp0ZkNuVDY3WTNNMzF1eW9WenpXazF1SWs0V3pEbzczSkhER2NJSXBTZkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTYxODc3CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKbWpwNHRJTEVEQjh3RTR2RjFuc2hnWmhpL09EbmpDekZpYVRyKzEreWpVcTNocUU1V01rZVlpZnU5L3Bwa3A0S2E5YXNDTFladVdnVkh6MmxaYUlQQmc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-21/kbootar-beta_0.1.0-21_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZjV3QrTWVWaEtRN0E1aEM3RmdDUjUvTk5vQVhFN3ZhbnZOZGNGSkxWdVhOV2lZM2M5K0NkNUZUQ2tZMmNacHNYdklQa2lFUU91TDFXaGVoSER5UFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTcxNjA5CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKKzZXeU5OZ1ZGYjJDbVROZkxNeVFaVkN5UTFnYmtLZ016VlpVaXZlMzNwNjNYSnBPejlFUGZTQXFFMGRZUXIrNEl2UUhsQ0hlMExaSUlhR1ZQeDREQUE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-22/kbootar-beta_0.1.0-22_universal.app.tar.gz"
     }
   }
 }
