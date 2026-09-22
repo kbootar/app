@@ -1,7 +1,7 @@
 ﻿{
     "version":  "0.1.0-23",
     "notes":  "Fix update check: re-fetch manifest on every scheduled/focus/manual trigger instead of locking on first found version. Only skip while a download is in progress or the update is staged for relaunch.",
-    "pub_date":  "2026-09-21T09:38:49Z",
+    "pub_date":  null,
     "platforms":  {
                       "darwin-x86_64":  {
                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbi9wSkZmQ2ZvQjhNdU5URTlycjQ1VlIvaVVOb0xHaHoyeXpkUlZBSHh4ZG9FanJ4cWNpbFRUbWtJS0VkRHVTUllMbXQvQ3BDcEFlNFlYdmo4QlZxTEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTgzNTE2CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKZ1d6S3BOYzBuVHpDT1ZRMHk5K2M4c2JPTTZ1TTBOY1ZWOVUwdExSZkZ2cmRnVXVCZHZ4aTIva21EZVRZWkpQNjZpU1lwSEppVG96Q1FlaDF6MDFaQUE9PQo=",
@@ -12,7 +12,7 @@
                                              "url":  "https://github.com/kbootar/app/releases/download/v0.1.0-23/kbootar-beta_0.1.0-23_universal.app.tar.gz"
                                          },
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjB4VzZONTE5MklMMlB3QWpUUTBKYUZ3aWhoZGpVei9UbHAvZjBtQlpvV2I0TE53Z2dMQm8zUFdWRDBuazRkRXFqMTRzcjZPRTFJTWp6RFgxUlVWK1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDQyMjQ2CWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTIzX3g2NF9lbi1VUy5tc2kuemlwCkJYOHVTSkoxeXlEcTdBR1pSaENoSDR2NzFWdExZZkdtV1ZYZGc4ZDVWa1M0b2pQYS9DaHBMYXRMTjkwYzZmcm9JZWU1VnpTOHN0WXJQSFcxMW1HMkNRPT0K",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbi9vUkFaU091MHhpQ0dFeDgwNGlORXluay9IbGFONS83T1k0Snd4QTc4UEVLMHNrYlQ0WUMrbHFYaWplYUNFWUtSby83UFJIQjZGQU12MGkvVXA1N1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDQ0NDgxCWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTIzX3g2NF9lbi1VUy5tc2kuemlwCmFrUDZEaTRIcm9qUG9MRng4S3FzR3MzYkh1dHRjVVp6bnJYN00yWG9HTk02QXRmV05BR1p3OXJ2aFArWW1jTVRqQmtEOE5lclNVazhhNmU1YXhDR0R3PT0K",
                                              "url":  "https://github.com/kbootar/app/releases/download/v0.1.0-23/kbootar-beta_0.1.0-23_x64_en-US.msi.zip"
                                          }
                   }
