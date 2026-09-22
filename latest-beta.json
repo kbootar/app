@@ -1,7 +1,7 @@
 ﻿{
     "version":  "0.1.0-23",
     "notes":  "Fix update check: re-fetch manifest on every scheduled/focus/manual trigger instead of locking on first found version. Only skip while a download is in progress or the update is staged for relaunch.",
-    "pub_date":  "2026-09-22T02:37:16Z",
+    "pub_date":  "2026-09-22T02:39:03Z",
     "platforms":  {
                       "darwin-x86_64":  {
                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbi9wSkZmQ2ZvQjhNdU5URTlycjQ1VlIvaVVOb0xHaHoyeXpkUlZBSHh4ZG9FanJ4cWNpbFRUbWtJS0VkRHVTUllMbXQvQ3BDcEFlNFlYdmo4QlZxTEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTgzNTE2CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKZ1d6S3BOYzBuVHpDT1ZRMHk5K2M4c2JPTTZ1TTBOY1ZWOVUwdExSZkZ2cmRnVXVCZHZ4aTIva21EZVRZWkpQNjZpU1lwSEppVG96Q1FlaDF6MDFaQUE9PQo=",
