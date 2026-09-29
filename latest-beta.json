@@ -12,8 +12,8 @@
       "url": "https://github.com/kbootar/app/releases/download/v0.1.0-30/kbootar-beta_0.1.0-30_universal.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZiM2ROOFYzc3JjNTVsOGd1bW1sdEhlbGZKb3BVUGtSWkxsTzNsWFdEWFBmVDVpejg2TUJBUW96VkdZT2xzYkdlVVdLc0dLRGxXRnlIVDd1aVpiOVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTk2NzUzCWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTMwX3g2NC1zZXR1cC5leGUuemlwCmRIMkwrSlVQaWlneWFtU0xLaHdSc1QrMXpOaURRbWVQN2F4Y24yNlRzV3QyMXVxNmh1OWI2VHNvU1NrS0RiazJSZ1pwNXlPMk1WYy9UQ2RFZDhnTkJRPT0K",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-30/kbootar-beta_0.1.0-30_x64-setup.exe.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZEQ0JnM1Z1M3FiVHIxdjVPK2JLZzVMUXFibTNVMFkzYVl3eVlvdXMrQjF1d1I1Vk1hUFcyQ1VIbnlvWWUwU2daeWJ2eFM0WGlsK0FTTk9Xcmk2a0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjc4ODc5CWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTMwX3g2NC1zZXR1cC5leGUKRGJtYk1SSlgyZTZJM2RIaDFPWnlHMlJSVTVETCt5QnJpcGI2QTBhNW55dytOK0lTemxNeXNrTnUrL0pjUzFMTzMrUEhNbDREQ2h4L3RhYkd4RzJvQVE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-30/kbootar-beta_0.1.0-30_x64-setup.exe"
     }
   }
 }
