@@ -13,6 +13,7 @@ This repo holds releases only — no source code lives here.
 - Response viewer — status, timing, headers, cookies
 - TLS inspection — certificate chain, trust status, self-signed detection; mutual TLS (client certificates)
 - Cookie jar; HTTP/HTTPS proxy support
+- Remote Executor mode — send requests through a service you run on another machine or network
 - Pre-request and test scripts
 - History, grouped by host
 - Auto-updates
@@ -51,6 +52,12 @@ This repo holds releases only — no source code lives here.
 
 **Response viewer — raw/preview toggle and search**
 ![Response viewer](gifs/response-viewer.gif)
+
+## Remote Executor
+
+In Remote mode the app sends each request through a service you run, so the call leaves from that network instead of your machine. That helps when the target is only reachable from a VPN, a corporate network, or a host that holds the private CAs and client certificates.
+
+[kbootar/remote-executor](https://github.com/kbootar/remote-executor) has the OpenAPI spec for that service and a Spring Boot reference implementation. To write your own in any language, implement `POST /api/execute` as described in the spec.
 
 ## Download
 
