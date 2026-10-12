@@ -69,7 +69,7 @@ Each release includes two files:
 - `kbootar[-beta]_<version>_universal.dmg` — the installer. Download this one.
 - `kbootar[-beta]_<version>_universal.app.tar.gz` — used only by the app's own auto-updater. Not for manual installs.
 
-**Windows** — planned, not yet available.
+**Windows** — x64. Download `kbootar-beta_<version>_x64-setup.exe` from the [releases page](https://github.com/kbootar/app/releases). The same file is the installer and what the auto-updater downloads.
 
 ## Channels
 
