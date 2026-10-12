@@ -61,22 +61,23 @@ In Remote mode the app sends each request through a service you run, so the call
 
 ## Download
 
-**macOS** — [Download the latest release](https://github.com/kbootar/app/releases/latest)
+| | macOS (Apple Silicon + Intel) | Windows (x64) |
+|---|---|---|
+| **Beta** — available now | [Download .dmg](https://github.com/kbootar/app/releases/download/latest-beta/kbootar-beta_universal.dmg) | [Download .exe](https://github.com/kbootar/app/releases/download/latest-beta/kbootar-beta_x64-setup.exe) |
+| **Stable** — coming soon | Coming soon | Coming soon |
 
-Universal binary (Apple Silicon + Intel), signed and notarized by Apple — no security warnings on first open.
+The beta links always point to the newest beta build. Earlier builds are on the [releases page](https://github.com/kbootar/app/releases), marked Pre-release.
 
-Each release includes two files:
-- `kbootar[-beta]_<version>_universal.dmg` — the installer. Download this one.
-- `kbootar[-beta]_<version>_universal.app.tar.gz` — used only by the app's own auto-updater. Not for manual installs.
+macOS builds are signed and notarized by Apple, so there is no security warning on first open.
 
-**Windows** — x64. Download `kbootar-beta_<version>_x64-setup.exe` from the [releases page](https://github.com/kbootar/app/releases). The same file is the installer and what the auto-updater downloads.
+Each release also has a `kbootar-beta_<version>_universal.app.tar.gz`. Only the in-app auto-updater uses it; don't install it by hand.
 
 ## Channels
 
-- **Stable** (`kbootar.app`) — general use.
-- **Beta** (`kbootar Beta.app`) — installs side by side with stable, gets new features first, may be less polished. Marked "Pre-release" on the [releases page](https://github.com/kbootar/app/releases).
+- **Beta** (`kbootar Beta.app` on macOS) — available now. New features land here first, so it can be less polished. It installs side by side with stable.
+- **Stable** (`kbootar.app`) — coming soon, for everyday use once beta has settled.
 
-Both channels update automatically once installed — checked every 2 hours, whenever the app regains focus, or on demand from the app's "Check for Updates…" menu item.
+Installed builds update automatically — checked every 2 hours, whenever the app regains focus, or on demand from the app's "Check for Updates…" menu item.
 
 ## Feedback & issues
 
