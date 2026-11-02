@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-30",
+  "version": "0.1.0-31",
   "notes": "Automated beta build.",
-  "pub_date": "2026-09-28T11:27:26Z",
+  "pub_date": "2026-11-02T16:22:32Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbnpyekF1bzh2UUNSR0xLSGo4TlF5ajlhdlRERHZaYmhqalhlc3VyZUNpY3ZpNmU5SVJ6aDRIS1U4a1ZBLytzVHJSa2QxTlcvNXdjK2hlaFE2c1hUblFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTk0ODI5CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKc2t4cU9tR25kK29vUDdVQWJGb0RNRXYwYXdkUFpLR3lQU2ttMWpUYkdBall0bGJ1MFFLNFQxRDRFZ1JnMnZ4N0Q5dFEweFdRYkpiajhBK1FQdVE1QWc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-30/kbootar-beta_0.1.0-30_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjhJcjRBUWdiR0t1cXJ2QUlDSEtHc0RkU290SitMbzZ0RHd1UUtPMUZhRnBqR0xHTjhDS1NNc25CSXg2UHpheWk1T3hBVmV5cG1KVllLKzk0a3J0bHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjM2NTMxCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKTDd1UGJLajdpakpJVGpxNXJuQnUzc3NZQnZ3TElIdThrMjg4akU1WGtIbDFPRTFhQ1RkZWduS0lLeDNoN0FRaENzWmRhMWNVeUdPQ3V1SWQ5ekQyQWc9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-31/kbootar-beta_0.1.0-31_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbnpyekF1bzh2UUNSR0xLSGo4TlF5ajlhdlRERHZaYmhqalhlc3VyZUNpY3ZpNmU5SVJ6aDRIS1U4a1ZBLytzVHJSa2QxTlcvNXdjK2hlaFE2c1hUblFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTk0ODI5CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKc2t4cU9tR25kK29vUDdVQWJGb0RNRXYwYXdkUFpLR3lQU2ttMWpUYkdBall0bGJ1MFFLNFQxRDRFZ1JnMnZ4N0Q5dFEweFdRYkpiajhBK1FQdVE1QWc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-30/kbootar-beta_0.1.0-30_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjhJcjRBUWdiR0t1cXJ2QUlDSEtHc0RkU290SitMbzZ0RHd1UUtPMUZhRnBqR0xHTjhDS1NNc25CSXg2UHpheWk1T3hBVmV5cG1KVllLKzk0a3J0bHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjM2NTMxCWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKTDd1UGJLajdpakpJVGpxNXJuQnUzc3NZQnZ3TElIdThrMjg4akU1WGtIbDFPRTFhQ1RkZWduS0lLeDNoN0FRaENzWmRhMWNVeUdPQ3V1SWQ5ekQyQWc9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-31/kbootar-beta_0.1.0-31_universal.app.tar.gz"
     },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZEQ0JnM1Z1M3FiVHIxdjVPK2JLZzVMUXFibTNVMFkzYVl3eVlvdXMrQjF1d1I1Vk1hUFcyQ1VIbnlvWWUwU2daeWJ2eFM0WGlsK0FTTk9Xcmk2a0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjc4ODc5CWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTMwX3g2NC1zZXR1cC5leGUKRGJtYk1SSlgyZTZJM2RIaDFPWnlHMlJSVTVETCt5QnJpcGI2QTBhNW55dytOK0lTemxNeXNrTnUrL0pjUzFMTzMrUEhNbDREQ2h4L3RhYkd4RzJvQVE9PQo=",
