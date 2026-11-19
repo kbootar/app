@@ -1,6 +1,6 @@
 {
   "version": "0.1.0-36",
-  "notes": "Automated beta build.",
+  "notes": "New since 0.1.0-34:\n- File and View menus now cover import, export, save, duplicate, workspaces, certificates, cookies, Remote Executor, layout and logs. The menu bar was not appearing before; that is fixed.\n- Easier shortcuts: Ctrl+Tab and Ctrl+Shift+Tab (or Cmd+Option+arrows) for previous and next tab, Cmd+1 to 9 to jump to a tab, Cmd+S save, Cmd+D duplicate, Cmd+O import, Cmd+, settings.\n- The tab strip scrolls to the selected tab, and Esc closes the cURL import and export dialogs.\n- OAuth: \"Always fetch a new token\" option and a \"Clear cached tokens\" button.\n- JWT Bearer signs a new token on every send.",
   "pub_date": "2026-11-18T08:30:37Z",
   "platforms": {
     "darwin-x86_64": {
