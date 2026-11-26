@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-37",
-  "notes": "New since 0.1.0-36:\n- Pipelines (experimental, off by default): chain saved requests into a flow on a canvas, with If, Switch, Parallel, Repeat, Set value, Transform, Script, Validate, JWT and Sub-pipeline blocks. Runs are recorded step by step, and a canvas can be exported as a PNG or a run as an animated GIF. Turn it on in Settings > General > Pipelines.\n- Picture export from pipelines has been checked on macOS only so far.\n",
-  "pub_date": "2026-11-26T05:10:50Z",
+  "version": "0.1.0-38",
+  "notes": "New since 0.1.0-37:\n- Workspace import is safer: if the app stops part of the way through an import, the import is undone (or finished, if every file was already in place) the next time the workspace opens, with a note in the activity log. Imports and saves no longer overlap, and an oversized ZIP file is refused before it is read.\n- Pipelines (experimental): a frame grows when a block in it is dragged over its edge, and travels with its blocks when they are copied.\n- Pipelines: a collapsed block shows how many of its hidden blocks have run, and a row in Run results opens the block that hides it.\n- Pipelines: the HTML run report has a \"Save this run as an animated GIF\" link.\n- Pipelines: Start and End can no longer be piped straight together.\n",
+  "pub_date": "2026-11-26T07:13:01Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZuSnBtSDdXRWNqN0c1RHdpYUFreVFzWWJqdlNiKzU0dFNxQUg2QXFqeEh6ZjdWbjl1SzF2NGw0NXcrblRnallTQnlqTEhHSitYSzJVZGxQc2FXRWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY5ODM1CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKVm9lTkNnUnpIT0w0dzRtaVRnRzlXMmE5WGl3MllZQnZJM1o5MkM0M25JUFRNMmZ6eGxqRkhiZWEvYkgyV1hLb2FrODBwbTBaMzZ5c2p2VnRteDVnQnc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-37/kbootar-beta_0.1.0-37_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbnlIL3ZzK1o2b1EwRUdpN3FZOTB5RjNmc1FKNkx6dTRFdU9TRDlMYndoUlVSaEVseVZLc0ZuMkNSWG9XY0x6Mm1LbHVSdE5IeEdzd015alJEbWN0TGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njc3MTU1CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKRGtPSlRlWlEwSDBQZGRqc0d6cVRZMGFLUkVkc21wNkVBWWZKM2p5WE5UeWtKaEJ1alpPNlBUa3k2OHlHR29pWnhhWHdhQ3VQaGg1aHdXdnpVRkZjREE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-38/kbootar-beta_0.1.0-38_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZuSnBtSDdXRWNqN0c1RHdpYUFreVFzWWJqdlNiKzU0dFNxQUg2QXFqeEh6ZjdWbjl1SzF2NGw0NXcrblRnallTQnlqTEhHSitYSzJVZGxQc2FXRWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY5ODM1CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKVm9lTkNnUnpIT0w0dzRtaVRnRzlXMmE5WGl3MllZQnZJM1o5MkM0M25JUFRNMmZ6eGxqRkhiZWEvYkgyV1hLb2FrODBwbTBaMzZ5c2p2VnRteDVnQnc9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-37/kbootar-beta_0.1.0-37_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbnlIL3ZzK1o2b1EwRUdpN3FZOTB5RjNmc1FKNkx6dTRFdU9TRDlMYndoUlVSaEVseVZLc0ZuMkNSWG9XY0x6Mm1LbHVSdE5IeEdzd015alJEbWN0TGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njc3MTU1CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKRGtPSlRlWlEwSDBQZGRqc0d6cVRZMGFLUkVkc21wNkVBWWZKM2p5WE5UeWtKaEJ1alpPNlBUa3k2OHlHR29pWnhhWHdhQ3VQaGg1aHdXdnpVRkZjREE9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-38/kbootar-beta_0.1.0-38_universal.app.tar.gz"
     },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbi9OSE9WaWFxbnpMZE96OWhVTUJNQU5pQ3pVWjRCbGVHbHhIQzI1b1V1ZTBTWDNQSmlRZHgraXk0ZjRiZjc1Y0JaZVlDZE5UQVFOc0tVMzFPcDEvQkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjczOTAyCWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTM3X3g2NC1zZXR1cC5leGUKQ20wRmVsbkY1OHJ2RDl5OCtBTHdXTVo3ZklSOC9YMG1pTnhUT2crWmNmSEhVSTZSZkdBY1pEYnFpMzFzVWo1RFF0WGxlRzhYUWVET0wwK1kzT254REE9PQo=",
