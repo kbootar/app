@@ -1,15 +1,15 @@
 {
-  "version": "0.1.0-36",
-  "notes": "New since 0.1.0-34:\n- File and View menus now cover import, export, save, duplicate, workspaces, certificates, cookies, Remote Executor, layout and logs. The menu bar was not appearing before; that is fixed.\n- Easier shortcuts: Ctrl+Tab and Ctrl+Shift+Tab (or Cmd+Option+arrows) for previous and next tab, Cmd+1 to 9 to jump to a tab, Cmd+S save, Cmd+D duplicate, Cmd+O import, Cmd+, settings.\n- The tab strip scrolls to the selected tab, and Esc closes the cURL import and export dialogs.\n- OAuth: \"Always fetch a new token\" option and a \"Clear cached tokens\" button.\n- JWT Bearer signs a new token on every send.",
-  "pub_date": "2026-11-18T08:30:37Z",
+  "version": "0.1.0-37",
+  "notes": "New since 0.1.0-36:\n- Pipelines (experimental, off by default): chain saved requests into a flow on a canvas, with If, Switch, Parallel, Repeat, Set value, Transform, Script, Validate, JWT and Sub-pipeline blocks. Runs are recorded step by step, and a canvas can be exported as a PNG or a run as an animated GIF. Turn it on in Settings > General > Pipelines.\n- Picture export from pipelines has been checked on macOS only so far.\n",
+  "pub_date": "2026-11-26T05:10:50Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjJwcVlwalNURlVZMDZtVGMyU0ZoT2JacWNPbml1OFBDekNxc2RsVWtScUhnNytucE9GZWlCMVFUN0dubXFiYXZQeHdGN3Jwa2RDbWk2akpweDA2SVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTkwNjE5CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKZkRZT1VZUmxUMlM1VGpYbjN0SW5Qa1JuN1NTdUVKcUtGdkxRVW1jZ29tMmZOdThnRmNpUUhBci9qQWJMMXJlNmRmNGI3emJZNDEvUCs5VTlON2ZLQ0E9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-36/kbootar-beta_0.1.0-36_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZuSnBtSDdXRWNqN0c1RHdpYUFreVFzWWJqdlNiKzU0dFNxQUg2QXFqeEh6ZjdWbjl1SzF2NGw0NXcrblRnallTQnlqTEhHSitYSzJVZGxQc2FXRWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY5ODM1CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKVm9lTkNnUnpIT0w0dzRtaVRnRzlXMmE5WGl3MllZQnZJM1o5MkM0M25JUFRNMmZ6eGxqRkhiZWEvYkgyV1hLb2FrODBwbTBaMzZ5c2p2VnRteDVnQnc9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-37/kbootar-beta_0.1.0-37_universal.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjJwcVlwalNURlVZMDZtVGMyU0ZoT2JacWNPbml1OFBDekNxc2RsVWtScUhnNytucE9GZWlCMVFUN0dubXFiYXZQeHdGN3Jwa2RDbWk2akpweDA2SVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTkwNjE5CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKZkRZT1VZUmxUMlM1VGpYbjN0SW5Qa1JuN1NTdUVKcUtGdkxRVW1jZ29tMmZOdThnRmNpUUhBci9qQWJMMXJlNmRmNGI3emJZNDEvUCs5VTlON2ZLQ0E9PQo=",
-      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-36/kbootar-beta_0.1.0-36_universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbjZuSnBtSDdXRWNqN0c1RHdpYUFreVFzWWJqdlNiKzU0dFNxQUg2QXFqeEh6ZjdWbjl1SzF2NGw0NXcrblRnallTQnlqTEhHSitYSzJVZGxQc2FXRWdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY5ODM1CWZpbGU6a2Jvb3RhciBCZXRhLmFwcC50YXIuZ3oKVm9lTkNnUnpIT0w0dzRtaVRnRzlXMmE5WGl3MllZQnZJM1o5MkM0M25JUFRNMmZ6eGxqRkhiZWEvYkgyV1hLb2FrODBwbTBaMzZ5c2p2VnRteDVnQnc9PQo=",
+      "url": "https://github.com/kbootar/app/releases/download/v0.1.0-37/kbootar-beta_0.1.0-37_universal.app.tar.gz"
     },
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSWEt6NmlZY3RTbnoxQzdkWmppNVBhaUFYOUFOM25NUmd0VTJ6aVdPWHlremd2NlpTdmI2ZXlCNzQrZHlqS1BESEVwdHlxVk41c3hNWE5kdmpJQXpNS2srSlFQdFZXcndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDg5MzY4CWZpbGU6a2Jvb3Rhci1iZXRhXzAuMS4wLTM2X3g2NC1zZXR1cC5leGUKcnZ6OENISmxoOWdOVEk5Q0xhcXFqZDVFWGdFMkVUWmZ2QXZpcFhLN3h3Z29YYm5nMzN5d0pobzlhMVk5NkNzU0JEMWlsblJIUWVsY2pMOGRzWDhnQlE9PQo=",
